@@ -62,7 +62,7 @@ If git is installed, this command will work on all Linux operating systems :
 git clone https://github.com/AnonC0DER/RexSO.git
 
 ### Screenshot : 
-![ScreenShot](RexSO.jpg)
+![ScreenShot](R.jpg)
 
 Contact me : 
 AnonCODER@tutanota.com
