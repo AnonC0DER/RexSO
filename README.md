@@ -61,6 +61,9 @@ However, thank you in advance for notifying the bugs.
 If git is installed, this command will work on all Linux operating systems :
 git clone https://github.com/AnonC0DER/RexSO.git
 
+### Donation : 
+15v1b5gsjMKkvVLRWjCxb8pzFvXjyWQBQ8
+
 ### Screenshot : 
 ![ScreenShot](R.jpg)
 
