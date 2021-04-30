@@ -2,6 +2,7 @@
 # <------First Version : v1.0------>
 # <------Help me improve it :)------>
 import subprocess
+import urllib.request
 from os import system
 from colorama import Fore
 from time import sleep
@@ -434,12 +435,19 @@ RexSO >>> ''')
 
 #Update
 def update():
-    system('git clone https://github.com/AnonC0DER/RexSO.git')
-    print('~> Updated successfully !')
-    sleep(1.5)
-    system('cd RexSO')
-    system('clear')
-    system('python3 RexSO.py')
+    print(Fore.RED + '[#]' + Fore.WHITE + ' This is 1.0 version')
+    print(Fore.YELLOW + '[?]' + Fore.GREEN+ ' Do you wanna download last version From github?')
+    version_pyle = input(Fore.YELLOW +'(Y/N) : ')
+    if version_pyle.upper() == 'Y':
+        print(Fore.YELLOW + 'Please Wait ...')
+        urllib.request.urlretrieve('https://github.com/AnonC0DER/RexSO/archive/refs/heads/main.zip' , 'RexSO.zip')
+        system('clear')
+        print(Fore.GREEN + '~> Download completed !')
+    elif version_pyle.upper() == 'N':
+        start()
+    else:
+        print(Fore.RED + '[!] Wrong Value')
+        again()
 
 
 #About Me && contact Me
